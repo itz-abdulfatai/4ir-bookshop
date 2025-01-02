@@ -150,6 +150,10 @@ a{
 }
 .bp{
     width: 100%;
+    display:flex ;
+    gap: 20PX;
+    flex-direction: column;
+
     
 
 }
@@ -172,3 +176,77 @@ font-weight: 700;
 color: #263b5e;
 }
 
+.you{
+    padding:20px 100px 20px 100px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+}
+
+.talk{
+    background-color: #f5f4fb;
+    color: #263b5e;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction:column ;
+
+}
+.water{
+    font-size: 34px;
+    font-weight: 700;
+}
+.cup{
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.honey{
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+min-height: 60vh;
+}
+.flower{
+    font-size: 50px;
+    font-weight:700;
+    color: #263b5e;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.human{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bee{
+background-color: #f5f4fb;
+height: 362px;
+display: flex;
+flex-direction: column;
+/* text-align: center; */
+align-items: center;
+gap: 20px;
+justify-content: center;
+padding: 5px 20px;
+}
+.necta{
+    font-size: 20px;
+    font-weight: 700;
+    color: #263b5e;
+    text-transform: capitalize;
+}
+
+.sxsweet{
+    color:#6a7695;
+}
+
+.icons {
+    font-size: 100px;
+    color: #17b978;
+}
