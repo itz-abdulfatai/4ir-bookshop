@@ -114,6 +114,8 @@ body {
   color: white;
   width: 200px;
   height: 60px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11);
 }
 .kudus:hover {
   background-color: #3ec48e;
@@ -156,6 +158,7 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   color: white;
+  margin-top: 50px;
   min-height: 60vh;
   gap: 30px;
 }
@@ -164,4 +167,15 @@ footer {
 }
 .assamguni {
   margin-bottom: 30px;
+}
+.set{
+  color: white;
+}
+
+
+
+@media (max-width: 665px ) {
+  footer {
+      flex-direction: column;
+  }
 }

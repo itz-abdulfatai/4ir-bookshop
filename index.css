@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     padding: 15px 100px 15px 100px;
     align-items: center;
+    z-index: 99;
 
 
 }
@@ -182,7 +183,6 @@ color: #263b5e;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    /* flex-wrap: wrap; */
 }
 
 .talk{
@@ -236,6 +236,11 @@ justify-content: center;
 padding: 5px 20px;
  
 }
+
+
+.active {
+    background-color: white;
+}
 .necta{
     font-size: 20px;
     font-weight: 700;
@@ -251,3 +256,227 @@ padding: 5px 20px;
     font-size: 100px;
     color: #17b978;
 }
+
+
+.other-books {
+    padding: 20px 100px;
+}
+
+.other-books h2 {
+    text-align: center;
+    font-size: 45px ;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #263b5e;
+    margin-bottom: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.cata {
+    width: 23%;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.cata-1 {
+    background-image: url("images/books/book1.webp");
+
+}
+
+.cata-2 {
+    background-image: url("images/books/book-2.webp");
+
+
+}
+
+.cata-3 {
+    background-image: url("images/books/book-3.webp");
+
+
+}
+
+.cata-4 {
+    background-image: url("images/books/book-4.webp");
+
+}
+
+.cata-5 {
+    background-image: url("images/books/book-5.webp");
+
+
+}
+
+.cata-6 {
+    background-image: url("images/books/book-6.webp");
+
+}
+
+.cata-7 {
+    background-image: url("images/books/book-7.webp");
+
+
+}
+
+.cata-8 {
+    background-image: url("images/books/book-8.webp");
+
+}
+
+
+
+.cata-inner { 
+    background-color: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+    gap: 10px;
+}
+
+.cata-inner:hover {
+    opacity: 1  ;
+}
+
+.cata h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+
+}
+
+
+.cata p {
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+
+footer {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    margin-top: 50px;
+    min-height: 60vh;
+    gap: 30px;
+  }
+  .ishaq {
+    width: 100%;
+  }
+  .assamguni {
+    margin-bottom: 30px;
+  }
+  .set{
+    color: white;
+  }
+
+
+  @media (max-width: 1111px) {
+.boy {
+    flex-direction: column-reverse;
+}
+
+.you {
+    flex-wrap: wrap;
+   
+}
+
+
+.cata {
+    width: 70%;
+}
+
+
+
+
+  }
+  
+
+
+
+
+  @media (max-width: 880px) {
+
+    .hero {
+        background-image: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .spider {
+        align-items: center;
+
+    }
+
+
+    .human {
+        flex-direction: column;
+
+    }
+
+
+    
+.cata {
+    width: 90%;
+}
+
+header, .hero, .aquaman, .boy, .you, .honey, .other-books {
+    padding: 20px 40px;
+}
+
+  }
+
+
+  @media (max-width: 800px) {
+    .ir {
+        display: initial;
+        background-color: transparent;
+        border: none;
+        font-size: 40px;
+
+    }
+
+    .all {
+        display: none;
+    }
+  }
+
+  
+  @media (max-width: 700px) {
+    
+.cata {
+    width: 100%;
+}
+  }
+
+
+  @media (max-width: 665px ) {
+    footer {
+        flex-direction: column;
+    }
+  }
