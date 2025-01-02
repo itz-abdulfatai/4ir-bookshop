@@ -118,3 +118,50 @@ body {
 .kudus:hover {
   background-color: #3ec48e;
 }
+
+@media (max-width: 770px) {
+  .imran {
+    flex-direction: column-reverse;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 50px;
+  }
+
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .muzzammil {
+    display: none;
+  }
+
+  .boys {
+    display: initial;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+  }
+
+  .iframe-parent {
+    height: 600px;
+  }
+}
+footer {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  min-height: 60vh;
+  gap: 30px;
+}
+.ishaq {
+  width: 100%;
+}
+.assamguni {
+  margin-bottom: 30px;
+}

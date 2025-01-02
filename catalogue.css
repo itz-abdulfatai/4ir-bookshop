@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans", serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+nav {
+  gap: 100px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.boys {
+  display: none;
+}
+.adam {
+  color: green;
+}
+.muzzammil {
+  display: flex;
+  flex-grow: 1;
+  gap: 100px;
+  justify-content: center;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  color: #051441;
+  font-size: large;
+}
