@@ -5,7 +5,7 @@ window.addEventListener('scroll', function () {
     nav.classList.remove('active')
 
 
-    if (window.scrollY > 500) {
+    if (window.scrollY > 300) {
 
         header.classList.add('active')
     } else {

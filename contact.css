@@ -52,7 +52,7 @@ h1 {
   text-transform: capitalize;
 }
 
-input {
+input, textarea {
   border: none;
 }
 a {
