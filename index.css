@@ -458,11 +458,40 @@ header, .hero, .aquaman, .boy, .you, .honey, .other-books {
         background-color: transparent;
         border: none;
         font-size: 40px;
+        cursor: pointer;
 
     }
 
     .all {
-        display: none;
+        position: absolute;
+        top: -400px;
+        z-index: 40;
+        left: 0;
+        right: 0;
+        height: 30vh;
+        background-color: black;
+        flex-direction: column;
+        justify-content: stretch;
+        gap: 0;
+        transition: all .4s;
+    }
+
+    .all.active {
+        top: 80px;
+    }
+
+    .all a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        color: white;
+        background-color: #051441;
+        transition: all .4s;
+    }
+
+    .all a:hover {
+        background-color: #17b978;
     }
   }
 
@@ -472,11 +501,18 @@ header, .hero, .aquaman, .boy, .you, .honey, .other-books {
 .cata {
     width: 100%;
 }
+
+.bp {
+    text-align: center;
+}
   }
 
 
   @media (max-width: 665px ) {
     footer {
         flex-direction: column;
+        text-align: center;
     }
+
+
   }
